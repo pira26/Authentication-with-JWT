@@ -1,0 +1,43 @@
+{
+  "name": "stateless_authentication",
+  "version": "1.0.0",
+  "description": "Stateless Authentication using JWT",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pira26/JWT.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "Passport",
+    "Bcrypt"
+  ],
+  "author": "Pira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pira26/JWT/issues"
+  },
+  "homepage": "https://github.com/pira26/JWT#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-promise-router": "^2.0.0",
+    "joi": "^13.0.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.13.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
